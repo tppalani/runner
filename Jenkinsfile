@@ -4,7 +4,7 @@ pipeline {
 	 stages {
         stage('Build'){
             steps {
-                bat "docker pull"
+                bat "docker pull palani160385/selenium-docker:latest"
             }
         }
 	 }
